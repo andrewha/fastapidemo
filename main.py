@@ -91,7 +91,7 @@ async def solve_and_plot(request: Request, coef_a: str=Form('1'), coef_b: str=Fo
             x_min, x_max = -10.0, 10.0
     else: # Pseudo-roots are not found, falling back to some range
         x_min, x_max = -10.0, 10.0
-    print(roots, pseudo_roots, vertex_x)
+    #print(roots, pseudo_roots, vertex_x)
     # Plotting
     # Quadratic polynomial function
     f = lambda x: a * x ** 2 + b * x + c
