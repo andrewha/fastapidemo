@@ -9,6 +9,8 @@ To run the app:
 - ```uvicorn main:app```
 - (optionally) run ```python tester.py``` to manually send GET requests
 
+The app is running here https://fastapidemo-shyq.onrender.com/
+
 Sample solution is shown below.
 
 ![](Sample_output.png)
