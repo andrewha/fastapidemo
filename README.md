@@ -9,7 +9,7 @@ To run the app:
 - ```uvicorn main:app```
 - (optionally) run ```python tester.py``` to manually send GET requests
 
-The app is running [here](https://fastapidemo-fkcw.onrender.com/).
+The app is running [here](https://fastapidemo-fkcw.onrender.com/) (it may take some time to start up, please be patient).
 
 Sample solution is shown below.
 
